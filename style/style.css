@@ -196,8 +196,7 @@ img {
 
     .navbar,
     .nav-links,
-    .banner-container,
-    {
+    .banner-container {
         flex-direction: column;
         text-align: center;
     }
@@ -205,20 +204,23 @@ img {
     .banner-img {
         margin-top: 40px;
     }
-.brand-name img{
-    width: 20%;
-    margin: 30px auto;
-    
-}
+
+    .brand-name img {
+        width: 20%;
+        margin: 30px auto;
+
+    }
+
     .brand-name {
         width: 100%;
         flex-direction: column;
     }
-    .popular-container{
-        grid-template-columns: repeat(1,1fr);
-        
+
+    .popular-container {
+        grid-template-columns: repeat(1, 1fr);
+
     }
-    
+
 }
 
 /* medium screen */
